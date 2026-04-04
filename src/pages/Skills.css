@@ -1,0 +1,78 @@
+.skills-container {
+  padding: 60px 5%;
+  min-height: 100vh;
+  text-align: center;
+  background: transparent;
+}
+
+.skills-header {
+  margin-bottom: 40px;
+}
+
+.skills-table {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skills-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+}
+
+.skill-box {
+  background: rgba(0,200,255,0.03);
+  border: 1px solid rgba(0,200,255,0.08);
+  border-radius: 16px;
+  padding: 24px;
+  text-align: left;
+  backdrop-filter: blur(8px);
+  transition: all 0.3s ease;
+}
+
+.skill-box:hover {
+  border-color: rgba(0,200,255,0.2);
+  box-shadow: 0 0 20px rgba(0,200,255,0.08);
+}
+
+.skill-box h3 {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+  background: linear-gradient(90deg, #00c8ff, #a855f7);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: 'Outfit', sans-serif;
+}
+
+.skill-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skill-box li {
+  padding: 6px 0;
+  color: rgba(255,255,255,0.75);
+  font-size: 0.95rem;
+  cursor: default;
+  transition: all 0.2s ease;
+  font-family: 'Outfit', sans-serif;
+}
+
+.skill-box li:hover {
+  color: #00c8ff;
+  padding-left: 8px;
+}
+
+/* Floating skill circles override */
+.skill-circle {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .skills-container {
+    padding: 40px 3%;
+  }
+}

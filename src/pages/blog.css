@@ -1,0 +1,16 @@
+/* Blog page specific styles - merged with index.css */
+.blog-section {
+  position: relative;
+  z-index: 1;
+}
+
+.vote-btn-circle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.vote-count {
+  font-weight: 600;
+  font-size: 14px;
+}
