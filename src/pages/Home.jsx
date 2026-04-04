@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import "../CSS/Home.css"
-import '../index.css' 
+import '../index.css'
 
 // 🖼️ Asset paths (from public directory)
 const githubLogo = '/github.png'
@@ -67,7 +67,7 @@ export default function Home() {
           >
             <div className="photo-placeholder">
               <motion.img
-                src="/bk_profile.jpg"
+                src="/image/bk.jpeg"
                 alt="Bignesh Kumar"
                 initial={{ scale: 0.8, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
@@ -127,7 +127,7 @@ export default function Home() {
       </div>
 
       {/* Stats Counter */}
-      <motion.div 
+      <motion.div
         className="stats-strip"
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
@@ -139,8 +139,8 @@ export default function Home() {
           { num: '2+', label: 'Certifications' },
           { num: '1st', label: 'Year B.Tech CSE' },
         ].map((s, i) => (
-          <motion.div 
-            key={i} 
+          <motion.div
+            key={i}
             className="stat-item"
             whileHover={{ scale: 1.1, y: -5 }}
             transition={{ type: 'spring', stiffness: 300 }}
