@@ -231,7 +231,7 @@ const AboutMe = () => {
                   <strong>Adamas University</strong> — Barasat, Kolkata
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>
-                  1st Year (Pursuing) | Batch: 2025–2029
+                  2nd Year (Pursuing) | Batch: 2025–2029
                 </p>
               </div>
             </motion.div>
