@@ -2,7 +2,7 @@
 
 My personal portfolio website showcasing my projects, skills, achievements, and journey as an aspiring AI Engineer & Full-Stack Developer.
 
-🌐 **Live:** [bignesh-kumar-portfolio.vercel.app](https://bignesh-kumar-portfolio.vercel.app/)
+🌐 **Live:** [bignesh-kumar-portfolio.vercel.app](bigneshkumar-portfolio.vercel.app)
 
 ---
 
