@@ -24,7 +24,7 @@ export default function Home() {
     { img: linkedinLogo, title: 'LinkedIn', link: 'https://www.linkedin.com/in/bignesh-kumar-201558376' },
     { img: gmailLogo, title: 'Email', link: 'mailto:bigneshkumar@gmail.com' },
     { img: whatsappLogo, title: 'WhatsApp', link: 'https://wa.me/+919142881131' },
-    { img: instagramLogo, title: 'Instagram', link: '#' },
+    { img: instagramLogo, title: 'Instagram', link: 'https://www.instagram.com/bignesh_singh/' },
   ]
 
   return (
@@ -134,10 +134,10 @@ export default function Home() {
         transition={{ delay: 0.8, duration: 0.8 }}
       >
         {[
-          { num: '5+', label: 'Projects Built' },
-          { num: '10+', label: 'Skills Mastered' },
-          { num: '2+', label: 'Certifications' },
-          { num: '1st', label: 'Year B.Tech CSE' },
+          { num: '8+', label: 'Projects Built' },
+          { num: '6+', label: 'Skills Mastered' },
+          { num: '10+', label: 'Certifications' },
+          { num: '2nd', label: 'Year B.Tech CSE' },
         ].map((s, i) => (
           <motion.div
             key={i}
