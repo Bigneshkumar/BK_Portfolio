@@ -65,7 +65,7 @@ export default function Resume() {
               👨‍💻 BIGNESH KUMAR
             </h3>
             <p style={{ marginTop: 10, fontSize: 15, color: "#ccc" }}>
-              1st Year B.Tech — CSE | Adamas University, Kolkata
+              2nd Year B.Tech — CSE | Adamas University, Kolkata
             </p>
             <p style={{ margin: "4px 0", fontSize: 14, color: "#aaa" }}>
               📍 Kolkata, West Bengal (Originally from Bihar)
